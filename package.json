@@ -8,6 +8,10 @@
     "build": "vite build",
     "deploy": "vercel --prod"
   },
+  "builds": {
+    "src": "src/PDF-Chatbot_v2.py",
+    "use": "@vercel/python"
+  },
   "devDependencies": {
     "vite": "^4.5.0"
   },
